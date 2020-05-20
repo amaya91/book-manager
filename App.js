@@ -12,6 +12,7 @@ console.disableYellowBox = true;
 
 function User() {
   return (
+    //User static image saved in android/asset
     <Image source={{uri: 'asset:/IMG_5206.JPG'}} style={{ width: 75, height: 75, borderRadius: 100/2, marginLeft: 10}}/>
   );
 }

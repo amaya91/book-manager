@@ -1,4 +1,6 @@
-const url = 'http://192.168.0.2:8080/';
+
+//add url for backend api
+const url = 'localhost';
 
 export function getBooks() {
   console.log('GETTING BOOKS');
